@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background: rgb(172, 172, 172);
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-family: 'Gilroy-Light', sans-serif;;
+}
+
+a{
+    color:rgb(59, 130, 246, 0.5);
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+width: 90%;
+margin: auto;
+}
+
+
+/*navegacion*/
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 50px;
+}
+
+/*izquierda*/
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
