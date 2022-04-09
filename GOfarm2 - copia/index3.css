@@ -1,0 +1,209 @@
+body{
+    font-family: 'Gilroy-Light', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{   
+    font-weight: bolder; 
+    color: rgba(24, 90, 125);
+}
+h5{    
+    color: rgba(24, 90, 125);
+}
+
+  
+
+.navbar{
+    background-color: #185a7d;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: white;
+    transition: 0.01 ease;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color:aliceblue;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+}
+.navbar img{
+    width: 140px;
+}   
+
+/*registro*/
+.register .container{
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: white;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 -20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-bottom-width: 2px;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: black;
+}
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button input{
+    background-color: rgb(20, 192, 216);
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+/* */
+
+/*Celular*/
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor:pointer;
+    color:white;
+}
+#bar:hover, #bar.active{
+    color:white;
+}
+
+h3{    
+    font-weight: bolder;
+    color: rgba(24, 90, 125);
+}
+
+p{
+color: rgba(24, 90, 125);
+}
+
+h5{    
+    color: rgba(24, 90, 125);
+}
+
+h4{   
+    font-weight: bolder; 
+    color: rgba(24, 90, 125);
+}
+
+
+
+/* FOOTER CSS*/
+footer{
+    background-color: #185a7d;
+}
+
+footer h5{
+    font-weight: bolder; 
+    color: #fff;
+    font-size: 1.2rem;
+}
+footer li{
+    padding-bottom: 4px;
+}
+footer a{
+    color: #fff; 
+}
+footer a:hover{
+    color: #fff; 
+}
+footer li a{
+    font-size: 1rem;
+    color: #fff;
+}
+footer li a:hover{
+    color: #fff;
+}
+footer p{
+    font-size: 1rem;
+    color: #fff;
+}
+footer a i{
+    color: #fff; 
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* section productos*/
+section h3{
+    font-weight: bold;
+    font-size: 2.1rem;
+    color:rgba(24, 90, 125);
+}
+section h2{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 42.0px;
+    color:#185a7d;
+}
+
+
+
