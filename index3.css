@@ -107,11 +107,15 @@ form .button{
     margin: 45px 0;
 }
 form .button input{
+    background-color: rgb(20, 192, 216);
     height: 100%;
     width: 100%;
+    font-size: 25px;
     outline: none;
-    color: black;
+    color: white;
     font-weight: bolder;
+    border: none;
+    border-radius: 5px;
 }
 
 /* */
